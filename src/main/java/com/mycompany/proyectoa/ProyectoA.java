@@ -3,6 +3,7 @@
  */
 
 package com.mycompany.proyectoa;
+import Vista.FrmTechRepair;
 
 /**
  *
@@ -11,6 +12,8 @@ package com.mycompany.proyectoa;
 public class ProyectoA {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        FrmTechRepair pantalla = new FrmTechRepair();
+        pantalla.setVisible(true);
     }
 }

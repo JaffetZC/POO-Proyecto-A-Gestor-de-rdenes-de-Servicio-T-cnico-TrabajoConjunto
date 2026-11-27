@@ -1,3 +1,5 @@
+package Vista;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -7,14 +9,14 @@
  *
  * @author mejia
  */
-public class PantallaPrincipal extends javax.swing.JFrame {
+public class FrmTechRepair extends javax.swing.JFrame {
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(PantallaPrincipal.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(FrmTechRepair.class.getName());
 
     /**
      * Creates new form PantallaPrincipal
      */
-    public PantallaPrincipal() {
+    public FrmTechRepair() {
         initComponents();
     }
 
@@ -65,7 +67,7 @@ public class PantallaPrincipal extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new PantallaPrincipal().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new FrmTechRepair().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
